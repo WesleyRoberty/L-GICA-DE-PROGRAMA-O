@@ -1,0 +1,206 @@
+<!--
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio1 switcht</title>
+    
+</head>
+<body>
+
+ <h2>Javascript switch</h2> 
+ <p id="demo"></p>
+ 
+
+ <script>
+
+let dia;
+
+switch (new Date().getDay()){
+
+case 0:
+dia = "domingo";
+break;
+
+case 1:
+dia = "segunda-feira";
+break;
+
+case 2:
+dia = "terça-feira";
+break;
+
+case 3:
+dia = "quarta-feira";
+break;
+
+case 4:
+dia = "quinta-feira";
+break;
+
+case 5:
+dia = "sexta-feira";
+break;
+
+case 6:
+dia = "sábado";
+break;
+
+}
+
+document.getElementById("demo").innerHTML = "hoje é " + dia;
+
+
+
+
+ </script>
+    
+</body>
+</html>
+
+ATIVIDADE 2-VERIFICAR SE É FINAL DE SEMANA
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercicio2 switch</title>
+</head>
+<body>
+    
+    <h2>Javascript switch</h2> 
+    <p id="demo"></p>
+    
+    <script>
+   
+   let texto;
+   
+   switch (new Date().getDay()){
+
+    case 0:
+    texto = " hoje é domingo";
+    break;
+
+    case 6:
+    texto = " hoje é sábado";
+    break;
+
+    default:
+    texto=  "Na espera do próxio final de semana."
+   }
+
+   document.getElementById("demo").innerHTML = texto;
+
+</script>
+</body>
+</html>
+
+ATIVIDADE 3- CRIAR UM HORTIFRUTI
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hortifruti Alegria</title>
+</head>
+
+<body>
+
+    <p id="demo"></p>
+
+<script>
+
+let fruta = "pêssego"; 
+
+switch(fruta){
+
+case "maça":
+console.log("Não vendemos essa fruta");
+break;
+
+case "kiwi":
+console.log("Estamos com escassez de kiwis");
+break;
+
+case "melancia":
+console.log("Está aqui,são R$ 3,00 o kilo");
+break;
+
+default:
+console.log("Não podemos lhe ajudar! ");
+}
+
+document.getElementById("demo").innerHTML = fruta;
+
+</script>
+
+    
+</body>
+</html>
+
+ATIVIDADE 3-VENDA DE CARROS 
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venda de carros</title>
+</head>
+<body>
+
+    <p id="demo"></p>
+
+<script>
+
+        let carro =(prompt("Informe um carro: ")); 
+        
+        switch(carro){
+        
+        case "Hatch":
+        console.log("Compra efetuada com sucesso");
+        document.write("Compra efetuada com sucesso");
+        break;
+        
+        case "Sedans":
+        console.log("Tem certeza que não prefere este modelo?");
+        document.write("Tem certeza que não prefere este modelo?");
+        break;
+        
+        case "Motocicletas":
+        console.log("Tem certeza que não prefere este modelo?");
+        document.write("Tem certeza que não prefere este modelo?");
+        break;
+        
+        case "caminhonetes":
+        console.log("Tem certeza que não prefere este modelo?");
+        document.write("Tem certeza que não prefere este modelo?");
+        break;
+
+        default:
+        console.log("Não trabalhamos com este tipo de automóvel aqui. ");
+        document.write("Não trabalhamos com este tipo de automóvel aqui. ");
+        }
+
+        
+
+
+</script>
+</body>
+</html>
+
+ATIVIDADE 4- INCREMENTAÇÃO E DECREMENTAÇÃO-->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src = "parseint.js"></script>
+</head>
+<body>
+<script>
+
